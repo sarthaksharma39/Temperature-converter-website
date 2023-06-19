@@ -1,3 +1,8 @@
-<style>
-style link yet to be add in html file
-</style>
+body {
+    background-color: #1E1E1E;
+    color: aliceblue;
+}
+
+.same{
+    margin: 2vw;
+}
