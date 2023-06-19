@@ -1,12 +1,38 @@
 <html>
-  <head>
-    <title>
-      Temperature Converter
-    </title>
-    <link rel="stylesheet" src="stylesheet.css">
+
+<head>
+  <title>
+    Temperature Converter
+  </title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="object.js" >
+    </script>
 </head>
-  
-  <body>
-    This is the body of html
-  </body>
+
+<body>
+  <div class="same">
+    To convert temperature from Celsius to Fahrenheit :
+  </div>
+  <input type="number" id="getdata" class="data">
+  <button id="demo1" onclick="CtoF()">Convert</button>
+
+  <div class="same">
+    To convert temperature from Fahrenheit to Celsius: 
+  </div>
+  <input type="number" id="getdata" class="data">
+  <button id="demo2" onclick="FtoC()">Convert</button>
+
+  <div class="same">
+    To convert temperature from Celsius to Kelvin: 
+  </div>
+  <input type="number" id="getdata" class="data">
+  <button id="demo3" onclick="CtoK()">Convert</button>
+
+  <div class="same">
+    To convert temperature from Kelvin to Celsius :
+  </div>
+  <input type="number" id="getdata" class="data">
+  <button id="demo4" onclick="KtoC()">Convert</button>
+</body>
+
 </html>
