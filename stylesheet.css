@@ -1,8 +1,29 @@
 body {
-    background-color: #1E1E1E;
+    background: linear-gradient(89.89deg, #9B43C5 0.11%, #3593BF 99.92%);
     color: aliceblue;
+    /* Rectangle 1 */
+
+
+    box-sizing: border-box;
+
+    left: 22px;
+    top: 22px;
+
+    border: 8px solid #D6D6D6;
 }
 
-.same{
-    margin: 2vw;
+.same {
+    margin: 1vw;
+    height: 35px;
+}
+
+.photo {
+    position: relative;
+    float: right;
+    width: 503px;
+    height: 515px;
+
+}
+.everything{
+    margin: 8vw;
 }
