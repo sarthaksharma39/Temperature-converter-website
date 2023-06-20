@@ -24,3 +24,30 @@ function KtoC() {
     let x = y*1 - 273.15;
     document.getElementById("demo4").innerHTML = x;
 };
+
+
+
+// document.addEventListener("DOMContentLoaded", () => {
+//     let form = document.querySelector("form");
+  
+//     form.addEventListener("submit", (e) => {
+//       e.preventDefault();
+  
+//       let options = document.getElementById("formOption");
+  
+//       if (options.value === "Celsius to Fahrenheit") {
+//             alert(CtoF);
+//       } else {
+        
+//       }
+//       options.value = "";
+//     });
+//   });
+  
+
+
+
+
+
+
+
